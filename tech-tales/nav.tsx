@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 function NavBar() {
   return (
-    <nav>
+    <nav className="NavBar">
         <ul>
             <li>
-            
+
             </li>
         </ul>
     </nav>
