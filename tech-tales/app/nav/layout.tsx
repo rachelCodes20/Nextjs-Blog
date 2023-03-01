@@ -1,11 +1,14 @@
-import { isSourceFile } from 'typescript'
+import './globals.css'
 import navBar from './nav'
 
 import React from 'react'
 
-function Layout() {
+function Layout( {children,
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <div>Layout</div>
+    <div>{children}</div>
   )
 }
 
