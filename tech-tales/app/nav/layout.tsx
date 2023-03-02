@@ -1,5 +1,5 @@
 import './globals.css'
-import navBar from './nav'
+import NavBar from './nav'
 
 import React from 'react'
 
@@ -8,7 +8,7 @@ function Layout( {children,
   children: React.ReactNode
 }) {
   return (
-    <div>{children}</div>
+    <div><NavBar/></div>
   )
 }
 
