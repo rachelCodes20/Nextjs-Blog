@@ -1,5 +1,5 @@
 import './globals.css'
-import NavBar from './nav'
+import NavBar from './page'
 
 import React from 'react'
 
