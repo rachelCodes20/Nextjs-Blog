@@ -10,7 +10,7 @@ function NavBar() {
               <li className={styles.navLI}>Home</li>
               <li className={styles.navLI}>News</li>
               <li className={styles.navLI}>Contact</li>
-              <li>About</li>
+              <li className={styles.navLI}>About</li>
           </ul>
       </div>
     </>

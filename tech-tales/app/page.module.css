@@ -151,6 +151,19 @@
   background-clip: content-box;
 }
 
+.navUL {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #383737;
+}
+
+.navLI {
+  float: left;
+  padding: 5px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

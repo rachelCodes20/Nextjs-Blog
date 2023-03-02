@@ -1,5 +1,7 @@
+'use client';
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
+import Post1 from './components/post1'
 import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -59,7 +61,6 @@ export default function Home() {
             Find in-depth information about Next.js features and API.
           </p>
         </a>
-
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -85,6 +86,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <Post1 />
       </div>
     </main>
   )
