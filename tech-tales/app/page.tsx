@@ -1,4 +1,4 @@
-'use client';
+'use client';//server side > client side compos
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Post1 from './components/post1'
