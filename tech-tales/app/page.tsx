@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Post1 from './components/post1'
+import Post2 from './components/post2'
 import styles from './page.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -40,6 +41,16 @@ export default function Home() {
    
         /> */}
          <Post1 />
+        <div className={styles.thirteen}>
+          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+        </div>
+      </div>
+       <div >
+        {/* <Image
+          className={styles.logo}
+   
+        /> */}
+         <Post2 />
         <div className={styles.thirteen}>
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
