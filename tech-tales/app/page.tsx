@@ -11,10 +11,6 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Tech Tales&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -45,9 +41,6 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.grid}>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
