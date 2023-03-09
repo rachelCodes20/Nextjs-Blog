@@ -169,7 +169,8 @@
 }
 
 .blogCards {
-  background-color: none;;
+  background-color: rgba(22, 20, 20, 0.927);
+  color: whitesmoke;
 }
 
 /* Enable hover only on non-touch devices */
